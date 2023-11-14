@@ -1,9 +1,9 @@
 def twosum(arr,n):
     for i in range(len(arr)):
-        for j in range(len(arr) + 1)
-            if arr[i] + arr[j] == n:
-                
-            print(a, end=" ")
+        for j in range(i+1,len(arr)):
+            if (arr[i] + arr[j]) == n:
+                return [i,j]
+          
             
             #print(i, end=" ")
     
