@@ -1,11 +1,11 @@
 def twosum (nums,target):
-    for i in range(len(nums)):
-        for j in range(i+1,len(nums)):
-            if (nums[i] + nums[j]) == target:
-                return [i,j]
+    for i in (len(nums)):
+        #for j in range(i+1,len(nums)):
+        if (nums[i] + nums[i]) == target:
+            return [i,i]
           
             
-            print(i, end=" ")
+        print([i,i] ,end=" ")
     
    
    
