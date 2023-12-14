@@ -1,11 +1,11 @@
-def twosum(arr,n):
-    for i in range(len(arr)):
-        for j in range(i+1,len(arr)):
-            if (arr[i] + arr[j]) == n:
+def twosum (nums,target):
+    for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+            if (nums[i] + nums[j]) == t:
                 return [i,j]
           
             
-            #print(i, end=" ")
+            print(i, end=" ")
     
    
    
