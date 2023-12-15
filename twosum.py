@@ -2,19 +2,17 @@ def twosum (nums,target):
 
     indices={}
     for i,n in enumerate(nums):
-        #for j in range(i+1,len(nums)):
+        print(i,n)
         j = target - n
         if j in indices:
             return [indices[j],i]
-        indices[nums] = i    
-        #if (nums[i] + nums[i]) == target:
-           #return [i,i]
+        indices[n] = i    
 
           
             
-        #print([i,i])
+        print([i])
         #print([nums[i], nums[i]])
     
    
    
-twosum([3,4,6,3],13)        
+twosum([10,4,6,3],13)        
