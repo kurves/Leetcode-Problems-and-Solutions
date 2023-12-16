@@ -1,5 +1,8 @@
 def palindromeNum(x):
-    if x[:] == x[::-1]:
+    y=[]
+    for i in x:
+        y.append(i)
+    if y[:] == y[::-1]:
 
         print("True")
     else:
