@@ -1,6 +1,6 @@
 def palindromeNum(x):
     y=[]
-    for i in x:
+    for i in str(x):
         y.append(i)
     if y[:] == y[::-1]:
 
