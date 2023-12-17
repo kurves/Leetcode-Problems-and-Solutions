@@ -8,7 +8,7 @@ def twosum (nums,target):
             return [indices[j],i]
         
         indices[n] = i    
-
+    return []
           
             
         #print([i])
