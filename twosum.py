@@ -2,15 +2,16 @@ def twosum (nums,target):
 
     indices={}
     for i,n in enumerate(nums):
-        print(i,n)
+        #print(i,n)
         j = target - n
         if j in indices:
             return [indices[j],i]
+        
         indices[n] = i    
 
           
             
-        print([i])
+        #print([i])
         #print([nums[i], nums[i]])
     
    
