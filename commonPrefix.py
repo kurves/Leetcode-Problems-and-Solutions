@@ -4,12 +4,13 @@ def commonPrefix(strs):
     ls= strs[-1]
 
     cp = ""
-    for i in range(len(strs)):
+    for i in range(len(fs)):
         if i < len(ls) and fs[i] == ls[i]:
             cp += fs[i]
         else:
             break
-    return cp   
+    return cp
+   
 
     if not strs:
         return [""]     
