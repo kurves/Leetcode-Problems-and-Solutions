@@ -2,7 +2,10 @@ def commonPrefix(strs):
     strs.sort()
     fs= strs[0]
     ls= strs[-1]
-    for i in strs:
+
+    cp = ""
+    for i in range(len(strs)):
+        if i < len(ls) and fs[i] == ls[i]
         for j in i:
             print(j)
     print(i)
