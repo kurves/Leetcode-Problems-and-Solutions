@@ -1,10 +1,10 @@
 def remDuplicates(nums):
     nums.sort()
-    for i in nums:
-        print(i)
     k = len(nums)
-    print(k)
+    return k
     l = set(nums)
-    print(l)
+    m = len(l)
+    return m
+    
 
 remDuplicates([1,4,5,9,0])
