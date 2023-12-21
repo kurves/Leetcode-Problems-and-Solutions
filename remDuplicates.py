@@ -1,7 +1,7 @@
 def remDuplicates(nums):
     nums.sort()
     l = set(nums)
-    return list(l)
+    return  nums(l)
     m = len(l)
     return m
     
