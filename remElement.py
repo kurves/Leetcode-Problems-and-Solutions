@@ -1,5 +1,7 @@
-def remElememt(nums, val):
-    for i in nums:
-        print i
-        if i == val:
-            nums.delete(i)
+def remElement(nums, val):
+    for i in range(len(nums)):
+        print(i) 
+        if nums[i] == val:
+            nums.pop(i)
+
+remElement([6,5,4,5,7,9],5)            
