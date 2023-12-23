@@ -1,12 +1,9 @@
 def wordLength(s):
     """Function to get length if last word"""
-    s.strip()
-    words = s.plit("")
-    for word in words:
-        print(word)
-    lastword=s[-1]
-    print(lastword)
-    print(len(s))
+
+    words = s.strip().split(" ")
+    lastword = words[-1]
+    print(len(lastword))
 
 
 wordLength("kurves  mmmm")
