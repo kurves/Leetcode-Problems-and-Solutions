@@ -1,5 +1,9 @@
 def needleHaystack(needle, haystack):
-    for i in haysack:
-        if i is needle:
-            print("true")
-        print(i)
+    if needle in haystack:
+        print("true")
+  
+        haystack.split(needle)
+       
+       
+
+needleHaystack("sad","sadbutsad")
