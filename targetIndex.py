@@ -1,5 +1,5 @@
 def targetIndex(nums,target):
-    for in nums:
+    for i,n in enumerate(nums):
         print(i)
     if nums in target:
         print(nums)
