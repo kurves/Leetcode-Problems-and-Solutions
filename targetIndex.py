@@ -1,7 +1,7 @@
 def targetIndex(nums,target):
     for i,n in enumerate(nums):
         print(i)
-        if nums is target:
+        if target in nums:
             if indexof(nums) == nums[i]:
                 print("yea")
             print(nums)
