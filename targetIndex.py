@@ -1,9 +1,8 @@
 def targetIndex(nums,target):
-    for i,n in enumerate(nums):
-        print(i)
-        if n == target:
-            print(n[i])
-            if indexof(nums) == nums[i]:
-                print("yea")
-            print(nums)
+    left, right = 0, len(nums)-1
+
+    while left <=right:
+        mid = left + (right-left)
+        if nums[mid] ==target:
+            return mid
 targetIndex([7,5,7],9)
