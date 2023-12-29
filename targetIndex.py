@@ -5,4 +5,11 @@ def targetIndex(nums,target):
         mid = left + (right-left)
         if nums[mid] ==target:
             return mid
+        elif ( nums[mid] , target):
+
+            left = mid +1
+        else:
+            right + 1
+    return left        
+
 targetIndex([7,5,7],9)
