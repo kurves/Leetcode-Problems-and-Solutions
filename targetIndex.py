@@ -1,6 +1,8 @@
 def targetIndex(nums,target):
+    """function to get index of target"""
     left, right = 0, len(nums)-1
 
+#while loop to loop through array
     while left <=right:
         mid = left + (right-left)
         if nums[mid] ==target:
