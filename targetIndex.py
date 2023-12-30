@@ -11,7 +11,7 @@ def targetIndex(nums,target):
 
             left = mid +1
         else:
-            right + 1
-    print(left)
+            right = mid - 1
+    return left
 
 targetIndex([7,5,7],9)
