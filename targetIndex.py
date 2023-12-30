@@ -4,14 +4,14 @@ def targetIndex(nums,target):
 
 #while loop to loop through array
     while left <=right:
-        mid = left + (right-left)
+        mid = left + (right-left) //2
         if nums[mid] ==target:
             return mid
-        elif ( nums[mid] , target):
+        elif ( nums[mid] < target):
 
             left = mid +1
         else:
             right + 1
-    return left        
+    print(left)
 
 targetIndex([7,5,7],9)
