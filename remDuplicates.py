@@ -1,6 +1,8 @@
 def remDuplicates(nums):
    setNums = set(nums)
    print(setNums)
+   length = len(list(setNums))
+   print(length)
    total =0
    for i in nums:
     total += i
