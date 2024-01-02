@@ -2,12 +2,12 @@ def remDuplicates(nums):
     """function to remiove dupliactes from array"""
     # declare a set to store unique elements
 
-   setNums = set(nums)
+    setNums = set(nums)
   
    #convert to list to mainatain order
 
-   k= len(list(setNums))
-   return k
+    k= len(list(setNums))
+    print(k,list(setNums))
    
 
-remDuplicates([0,0,1,1,1,2,2,3,3,4])
+remDuplicates([1,1,2])
