@@ -1,10 +1,12 @@
 def remDuplicates(nums):
     """function to remiove dupliactes from array"""
-    # declare a set to store unique elements
+    #declare first unique variable
     uniqueNum = 1
-   #convert to list to mainatain order
+  #loop through
     for i in range(1,len(nums)):
+        #compare the current with the previou
         if nums[i] != nums[i-1]:
+            #update uniwue count and move nums
             nums[uniqueNum] = nums[i]
             uniqueNum +=1
     return uniqueNum
