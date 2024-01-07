@@ -6,6 +6,9 @@ def romanInteger(s):
     for i in reversed(s):
         value = Values[i]
 
+    if value < prev_value:
+        result -= value        
+
     dividend =s // 10:
     if dividend == 10:
         print("X")
