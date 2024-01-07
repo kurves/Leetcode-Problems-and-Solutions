@@ -7,7 +7,10 @@ def romanInteger(s):
         value = Values[i]
 
     if value < prev_value:
-        result -= value        
+        result -= value 
+    else:
+        result += value
+    prev_value = value    
 
     dividend =s // 10:
     if dividend == 10:
