@@ -7,10 +7,6 @@ def plusOne(digits):
         rem = total // 10 
     if rem:
         digits = [1] + digits
-    print(digits)
-    lastIncrease = [digits[-1] + 1]
-    print(lastIncrease)
-    results= digits[:-1] +lastIncrease
-    print(results)
-
+    return digits
+    
 plusOne([9])
