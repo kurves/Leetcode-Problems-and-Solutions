@@ -4,6 +4,7 @@ def plusOne(digits):
     for i in range(len(digits)-1,-1,-1):
         total = digits[i] + rem
         digits[i] = total %10
+        rem = total // 10 
     lastIncrease = [digits[-1] + 1]
     print(lastIncrease)
     results= digits[:-1] +lastIncrease
