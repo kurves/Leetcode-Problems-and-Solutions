@@ -1,5 +1,9 @@
 def happyNumber(n):
     """function  to determine if number is a happy numbetr"""
-    ind_numbers = n % 10
-    ind_numbers = n / 10
+    
+    ind = n % 10
+    inf= n / 10
+
+    print(ind)
+    print(inf)
     
