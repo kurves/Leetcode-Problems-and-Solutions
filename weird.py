@@ -7,7 +7,7 @@ def weird(n):
         print("Weird")
     elif  even and n > 20:
         print("Not Weird")
-    else:
+    elif odd:
         print("Weird")
 
-weird(7)
+weird(4)
