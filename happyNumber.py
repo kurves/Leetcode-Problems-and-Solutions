@@ -1,11 +1,8 @@
 def happyNumber(n):
     """function  to determine if number is a happy numbetr"""
     
-    ind = n % 10
-    inf= n // 10
-    power = ind **2 + inf **2
-
-    print(ind)
-    print(inf)
-    print(power)
+    seen = set() 
+    while n != 1 and n not in seen:
+    seen.add(n) 
+    n = sum(int(digit)**2 for digit in str(n))
 happyNumber(19)
