@@ -1,7 +1,7 @@
 def happyNumber(n):
     """function  to determine if number is a happy numbetr"""
     def get_next(num):
-        return n = sum(int(digit)**2 for digit in str(n))
+        return sum(int(digit)**2 for digit in str(n))
     
     seen = set() 
     while n != 1 and n not in seen:
