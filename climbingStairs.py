@@ -5,4 +5,4 @@ def climbingStairs(n):
     if n == 0 or n == 1:
         return 1
     else:
-        return climbStairs(n-1) + climbStairs(n-2)
+        return climbingStairs(n-1) + climbingStairs(n-2)
