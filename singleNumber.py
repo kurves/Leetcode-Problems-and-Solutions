@@ -2,6 +2,7 @@ def singleNumber(nums):
     #functiion to find single eements
     for item in nums:
         count = nums.count(item)
-        print(count)
+        if count == 1:
+            print(item)
 
 singleNumber([2,2,1])
