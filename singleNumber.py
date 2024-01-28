@@ -5,4 +5,4 @@ def singleNumber(nums):
         if count == 1:
             print(item)
 
-singleNumber([2,2,1])
+singleNumber([4,1,2,2,1])
