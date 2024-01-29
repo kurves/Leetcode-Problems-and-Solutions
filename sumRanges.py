@@ -10,4 +10,11 @@ def summaryRanges(nums):
 
     
     for i in range(1, len(nums)):
+        if nums[i] != nums[i - 1] + 1:
+            ranges.append((start, nums[i - 1]))
+            start = nums[i]
+
+    ranges.append((start, nums[-1]))
+
+    return ranges
 
