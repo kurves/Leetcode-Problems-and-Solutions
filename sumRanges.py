@@ -14,7 +14,7 @@ def summaryRanges(nums):
             result.append((start, nums[i - 1]))
             start = nums[i]
 
-    result.append((start,"->"nums[-1]))
+    result.append(f"{start}->{nums[-1]}")
 
     return result
 
