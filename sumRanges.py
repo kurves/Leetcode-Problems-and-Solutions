@@ -13,8 +13,11 @@ def summaryRanges(nums):
         if nums[i] != nums[i - 1] + 1:
             result.append((start, nums[i - 1]))
             start = nums[i]
-
-    result.append(f"{start}->{nums[-1]}")
+            start = nums[i]
+        else:
+            end = sums[i]
+            
+    result.append((start, end) if start == end else f"{start}->{end}")
 
     return result
 
