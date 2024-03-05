@@ -13,3 +13,4 @@ def climbingStairs(n):
 
     for i in range(3, n+1):
         dp[i] = dp[i-1] + dp[1-2]
+    return dp[n]
