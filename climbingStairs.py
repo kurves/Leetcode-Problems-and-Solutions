@@ -6,7 +6,7 @@ def climbingStairs(n):
         return 1
     elif n == 2:
         return 2
-        return climbingStairs(n-1) + climbingclear
+     
     dp = [0] * (n+1)        
     dp[1]=1
     dp[2]= 2
