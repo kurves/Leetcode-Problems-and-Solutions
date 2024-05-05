@@ -5,7 +5,13 @@ class TreeNode:
         self.left = left
         self.right = right
 
-def pathSum ():
+def pathSum():
+    if not root:
+        return False
+    
+    
+    if not root.left and not root.right:
+        return targetSum == root.val
 
 
 
