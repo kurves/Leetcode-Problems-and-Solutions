@@ -14,4 +14,8 @@ def pathSum():
         return targetSum == root.val
 
 
+    targetSum -= root.val
+
+    return hasPathSum(root.left, targetSum) or hasPathSum(root.right, targetSum)
+
 
